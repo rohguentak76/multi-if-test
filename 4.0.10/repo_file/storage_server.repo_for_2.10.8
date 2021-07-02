@@ -1,0 +1,35 @@
+[lustre]
+name=Lustre Server
+baseurl=https://downloads.whamcloud.com/public/lustre/lustre-2.10.8/el7/server/
+enabled=1
+gpgcheck=0
+
+[ngompa-dnf-el7]
+name=Copr repo for dnf-el7 owned by ngompa
+baseurl=ftp://adm/repo/ngompa-dnf-el7
+gpgcheck=0
+enabled=1
+
+[lustre-client]
+name=Lustre Client
+baseurl=ftp://adm/repo/lustre-client
+enabled=1
+gpgcheck=0
+
+[e2fsprogs]
+name=Lustre e2fsprogs
+baseurl=ftp://adm/repo/e2fsprogs
+enabled=1
+gpgcheck=0
+
+[managerforlustre-manager-for-lustre-4.0.10]
+name=Copr repo for manager-for-lustre-4.0.10 owned by managerforlustre
+baseurl=ftp://adm/repo/managerforlustre-manager-for-lustre-4.0.10
+gpgcheck=0
+enabled=1
+
+[epel]
+name=Extra Packages for Enterprise Linux 7 - $basearch
+baseurl=ftp://adm/repo/epel
+enabled=1
+gpgcheck=0
