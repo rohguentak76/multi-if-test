@@ -17,7 +17,6 @@ targetcli /iscsi/iqn.2015-01.com.whamcloud.lu:mds/tpg1/luns/ create /backstores/
 targetcli /iscsi/iqn.2015-01.com.whamcloud.lu:mds/tpg1/luns/ create /backstores/block/mdt2
 targetcli /iscsi/iqn.2015-01.com.whamcloud.lu:mds/tpg1/luns/ create /backstores/block/mdt3
 
-
 for x in {1..10}
 do
     targetcli /backstores/block create ost${x} /dev/ost${x}
